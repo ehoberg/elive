@@ -2,8 +2,8 @@
 -export([init/0]).
 
 -import(crypto, [rand_uniform/2, start/0]).
--import(statistics_process).
--import(grazer).
+-import(statistics_process, [start/1]).
+-import(grazer, [clone_grazer/0]).
 
 -include("state.hrl").
 
